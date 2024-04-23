@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 33px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+#sort-options{
+   text-align: center;
+   font-size: 22px;
+   margin-top: 30px;
+}
+#sort-options select {
+    width: auto;
+    height: 30px;
+    border-radius: 5px;
+    border: 0.5px solid;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+#sort-options button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: lightgray;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#country-list{
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    margin-top: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#country-list .country-card {
+    width:300px;
+    margin: auto;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+#country-list .country-card:hover{
+    background: lightblue;
+}
+
+#country-list .country-card h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#country-list .country-card p{
+    padding: 5px;
+    font-size: 15px;
+}
+#country-list .country-card h4{
+    padding: 5px;
+    font-size: 19px;
+}
